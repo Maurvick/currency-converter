@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.converter form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.converter h1 {
+  margin-bottom: 30px;
+}
+
+.in-one-row {
+  display: flex;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.form-group input {
+  width: 98%;
+  padding: 5px;
+  margin-top: 10px;
+  border-width: 2px;
+  border-radius: 5px;
+}
